@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="?attr/colorSurfaceVariant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:id="@+id/tvRecordId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: 1"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:layout_marginEnd="8dp"/>
+            <TextView
+                android:id="@+id/tvRecordTimestamp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2023-10-27 10:30:00"
+                android:textSize="12sp"
+                android:gravity="end"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRecordInputType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: TEXT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvRecordInputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input: This is the news text..."
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvRecordExtractedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extracted: Scraped content..."
+            android:textSize="12sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:visibility="gone"
+            android:layout_marginBottom="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:id="@+id/tvRecordPrediction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prediction: FAKE"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorError"
+                android:layout_marginEnd="8dp"/>
+            <TextView
+                android:id="@+id/tvRecordConfidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Conf: 88%, Thr: 0.50)"
+                android:textSize="12sp"
+                android:textColor="?attr/colorOnSurfaceVariant"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRecordFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback: REAL (Corrected)"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="?attr/colorSecondary"
+            android:visibility="gone"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvRecordShapValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHAP: E=0.1, S=-0.2, C=0.05"
+            android:textSize="11sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:visibility="gone"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

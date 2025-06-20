@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_text_analysis"
+        android:icon="@drawable/ic_document"
+        android:title="Text Analysis" />
+    <item
+        android:id="@+id/nav_url_analysis"
+        android:icon="@drawable/ic_link"
+        android:title="URL Analysis" />
+</menu>

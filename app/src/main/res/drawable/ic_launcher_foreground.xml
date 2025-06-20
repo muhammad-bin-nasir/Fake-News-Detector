@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central shield with modern design -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,25L40,30C40,30 40,44 40,52C40,66 54,78 54,78C54,78 68,66 68,52C68,44 68,30 68,30L54,25Z" />
+
+    <!-- Shield inner glow -->
+    <path
+        android:fillColor="#F0F4FF"
+        android:pathData="M54,28L43,32C43,32 43,44 43,51C43,63 54,74 54,74C54,74 65,63 65,51C65,44 65,32 65,32L54,28Z" />
+
+    <!-- AI Brain shape -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M48,40C45,40 43,42 43,45C43,48 45,50 48,50L60,50C63,50 65,48 65,45C65,42 63,40 60,40L48,40Z" />
+
+    <!-- Neural network dots (converted to paths) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,44m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,44m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,47m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,47m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+
+    <!-- Connection lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.6"
+        android:pathData="M50,44L54,42M54,42L58,44M50,44L52,47M58,44L56,47M52,47L56,47"
+        android:strokeLineCap="round" />
+
+    <!-- Verification checkmark -->
+    <path
+        android:fillColor="#27AE60"
+        android:pathData="M54,62m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M52,62L54,64L57,60"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Floating document icons (converted to paths) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,35L40,35Q41,35 41,36L41,42Q41,43 40,43L36,43Q35,43 35,42L35,36Q35,35 36,35Z" />
+    <path
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="0.4"
+        android:pathData="M36,37L40,37M36,38.5L40,38.5M36,40L39,40"
+        android:strokeLineCap="round" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,40L72,40Q73,40 73,41L73,47Q73,48 72,48L68,48Q67,48 67,47L67,41Q67,40 68,40Z" />
+    <path
+        android:strokeColor="#9C27B0"
+        android:strokeWidth="0.4"
+        android:pathData="M68,42L72,42M68,43.5L72,43.5M68,45L71,45"
+        android:strokeLineCap="round" />
+
+</vector>

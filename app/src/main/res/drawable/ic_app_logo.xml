@@ -1,0 +1,118 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M60,60m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0" />
+
+    <!-- Main circle -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M60,60m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Inner highlight -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M60,15C35,15 15,35 15,60C15,45 35,25 60,25C85,25 105,45 105,60C105,35 85,15 60,15Z" />
+
+    <!-- Central shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25L42,32C42,32 42,48 42,58C42,75 60,90 60,90C60,90 78,75 78,58C78,48 78,32 78,32L60,25Z" />
+
+    <!-- Shield border (stroke only, no fill) -->
+    <path
+        android:strokeColor="#E1E8ED"
+        android:strokeWidth="1"
+        android:pathData="M60,25L42,32C42,32 42,48 42,58C42,75 60,90 60,90C60,90 78,75 78,58C78,48 78,32 78,32L60,25Z" />
+
+    <!-- AI Brain outline -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M52,42C48,42 45,45 45,49C45,53 48,56 52,56L68,56C72,56 75,53 75,49C75,45 72,42 68,42L52,42Z" />
+
+    <!-- Neural connection dots (converted from circles to paths) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,46m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,48m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,52m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63,52m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+
+    <!-- Connection lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M54,48L60,46M60,46L66,48M54,48L57,52M66,48L63,52M57,52L63,52"
+        android:strokeLineCap="round" />
+
+    <!-- News document 1 (converted from rect to path) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,35L37,35Q38,35 38,36L38,44Q38,45 37,45L31,45Q30,45 30,44L30,36Q30,35 31,35Z" />
+    <path
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="0.5"
+        android:pathData="M31,37L36,37M31,39L36,39M31,41L34,41"
+        android:strokeLineCap="round" />
+
+    <!-- News document 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,45L89,45Q90,45 90,46L90,54Q90,55 89,55L83,55Q82,55 82,54L82,46Q82,45 83,45Z" />
+    <path
+        android:strokeColor="#9C27B0"
+        android:strokeWidth="0.5"
+        android:pathData="M83,47L88,47M83,49L88,49M83,51L86,51"
+        android:strokeLineCap="round" />
+
+    <!-- Verification checkmark circle -->
+    <path
+        android:fillColor="#27AE60"
+        android:pathData="M60,70m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M57,70L59,72L64,67"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Warning indicator circle -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M25,75m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M25,73L25,76M25,78L25,78"
+        android:strokeLineCap="round" />
+
+    <!-- Sparkle effects -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M85,22L86,25L85,28L84,25Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M82,25L85,26L88,25L85,24Z" />
+
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M35,18L35.7,20L35,22L34.3,20Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M33,20L35,20.7L37,20L35,19.3Z" />
+
+</vector>

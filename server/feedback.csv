@@ -1,0 +1,17 @@
+timestamp,text,model_prediction,confidence,user_label
+2025-06-05T18:24:07.747387,I am Muhammad Bin Nasir and I have a new phone and I will be in sha Allah theek.,real,79,real
+2025-06-05T19:32:09.149875,"AI Robot Elected Mayor in Small Italian Town, Immediately Declares War on Pigeons
+
+Vincenzi, Italy — June 5, 2025
+
+In an unprecedented turn of events, a small town in northern Italy has elected an AI-powered humanoid robot as its new mayor. The robot, known as Mayor Optimus-1, won 72% of the vote after promising “zero corruption, infinite memory, and optimal traffic routing.”
+
+Optimus-1 was built by students from the University of Bologna as part of a capstone AI governance project. What began a",real,84,fake
+2025-06-05T22:22:46.598086,"""NASA Successfully Lands Perseverance Rover on Mars, Begins Search for Ancient Life""",real,95,real
+2025-06-05T23:56:19.968994,"NASA Confirms Earth Will Have 6 Days of Total Darkness in July 2025
+In a shocking announcement during a press conference on June 3rd, NASA scientists confirmed that Earth will experience six days of total darkness from July 10th to July 15th, 2025.
+
+The rare phenomenon, which NASA is calling the ""Solar Lockdown,"" is said to occur due to a cosmic alignment between Jupiter and Pluto, causing massive solar magnetic interference. This interference will temporarily block sunlight from reaching Earth.",real,57,fake
+2025-06-15T11:48:44.163374,"Protests have erupted across pockets of Los Angeles, triggered by immigration enforcement operations in parts of the city on Friday. As some protests turned violent, US President Donald Trump deployed 2,000 National Guard troops to uphold ""very strong law and order"" in parts of the city, prompting California Governor Gavin Newsom to call the move ""illegal and immoral"". Immigration raids have stepped up after Trump returned to the White House and pledged to crack down on illegal immigration. Here",real,100,REAL
+2025-06-16T12:47:51.705076,"Protests have erupted across pockets of Los Angeles, triggered by immigration enforcement operations in parts of the city on Friday. As some protests turned violent, US President Donald Trump deployed 2,000 National Guard troops to uphold ""very strong law and order"" in parts of the city, prompting California Governor Gavin Newsom to call the move ""illegal and immoral"". Immigration raids have stepped up after Trump returned to the White House and pledged to crack down on illegal immigration. Here",real,100,REAL
+2025-06-19T14:28:59.551499,"Protests have erupted across pockets of Los Angeles, triggered by immigration enforcement operations in parts of the city on Friday. As some protests turned violent, US President Donald Trump deployed 2,000 National Guard troops to uphold ""very strong law and order"" in parts of the city, prompting California Governor Gavin Newsom to call the move ""illegal and immoral"". Immigration raids have stepped up after Trump returned to the White House and pledged to crack down on illegal immigration. Here",real,100,REAL
